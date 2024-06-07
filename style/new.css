@@ -26,6 +26,8 @@ h3{
 main{
     text-align: center;
     margin: 0px auto;
+    max-width: 1320px;
+
 }
 .small{
     margin-top: 40px;
@@ -37,4 +39,57 @@ main{
     margin-top: 20px;
     font-weight: bold;
 }
+.s3{
+   background-color: rgba(255, 0, 0, 0.1);
+   padding-top: 80px;
+   padding-bottom: 80px;
+   font-size: 25px;
+   margin-top: 80px;
+   font-weight: bold;
+   border-radius: 6px;
+}
+span{
+  color: red;
+}
+.join{
+    margin-top: 40px;
+    padding: 10px 20px;
+    border: 0px solid;
+    background-color: #ff0000;
+    color: antiquewhite;
+    border-radius: 6px;
+}
+.text-small{
 
+}
+.s2{
+    text-align: left;
+    padding-left: 80px;   
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.bg{
+
+    background-image: url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    
+}
+.Welcome{
+    font-size: 60px;
+    color: #ffffff;
+    padding-top: 70px;
+
+}
+.text-small{
+    color: #ffffff;
+}
+.img-add{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 100px 50px 0px;
+}
