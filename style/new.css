@@ -87,9 +87,62 @@ a{
 }
 .text-small{
     color: #ffffff;
+    padding-right: 200px;
 }
 .img-add{
     display: flex;
     justify-content: space-between;
     padding: 80px 100px 50px 0px;
+}
+.s4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    gap: 30px;
+    text-align: left;
+    position:relative;
+}
+.elps{
+    border: 10px solid red;
+    border-radius: 100%;
+    padding: 30px;
+}
+.new{
+    padding-top: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff0000;
+}
+.soon{
+    font-size: 30px;
+    padding-top: 0px;
+    font-weight: bold;
+}
+.dolor{
+    color: rgba(0, 0, 0, 0.534); 
+    width: 300px; 
+    margin-bottom: 50px;
+}
+.sal{
+    padding-top: 50px;
+    color: #ff0000;
+    font-size: 40px;
+    font-weight: bold;   
+}
+.s5{
+    margin-top: 200px;
+}
+.what{
+    font-size: 15px;
+    font-weight: bold;
+}
+.holi{
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 0px;
+}
+.sit{
+    text-align: center;
+    padding: 0px 300px;
+
 }
