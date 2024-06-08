@@ -3,17 +3,16 @@
     background-position: top center;
     background-repeat: no-repeat;
     align-items: center;
-    text-align: center;
-    
+    text-align: center;   
 }
 h1{
-    color: rgb(11, 81, 187);
+    color: rgb(255, 0, 0);
     font-size: 70px;
     padding-top: 0px;
     padding-bottom: 185px;
 }
 h3{
-    color: rgb(1, 133, 221);
+    color: rgb(255, 0, 0);
     font-size: 30px;
     padding-top:250px ;
 }
@@ -27,7 +26,6 @@ main{
     text-align: center;
     margin: 0px auto;
     max-width: 1320px;
-
 }
 .small{
     margin-top: 40px;
@@ -73,8 +71,8 @@ a{
     padding-left: 30px;
 }
 .bg{
-
-    background-image: url('../resources/Vectorrr.png');
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url('../resources/Vectorrr.png');
+    /* background-image: url('../resources/Vectorrr.png'); */
     background-repeat: no-repeat;
     margin-top: 80px;
     
@@ -144,5 +142,53 @@ a{
 .sit{
     text-align: center;
     padding: 0px 300px;
+}
+.prot{
+    margin-top: 80px;
+    text-align: left;
+}
+.pictures{
+    margin-top: 20px;
+}
+.picture{
+    display: flex;
+    gap: 20px; 
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.picture img{
+    max-width: 450px;
+}
+.picture img:hover{
+    border: 5px solid rgba(245, 33, 5, 0.685);
+    border-radius: 30px;  
+}
+.last-section{
+    margin-top: 100px;
+    background-color: rgba(255, 0, 0, 0.05);
+    padding-top: 90px;
+}
+.subscrib{
+    margin-top: 50px;
+    margin-right: 230px;
+}
+input{
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 220px;
+    padding-bottom: 20px;
+    border-radius: 50px 0px 0px 50px;
+    border: 0px white ;  
+    margin-bottom: 100px;
+    font-size: 18px;
 
 }
+.submit{
+    padding-left: 40px;
+    padding-right: 80px;
+    background-color: #ff0000;
+    color: #ffffff;
+    position: absolute;
+    border-radius: 0px 50px 50px 0px;
+} 
+
